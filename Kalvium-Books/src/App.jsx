@@ -38,7 +38,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Books data={booksData} />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/Register" element={<Register />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />

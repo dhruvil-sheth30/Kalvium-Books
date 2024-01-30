@@ -8,7 +8,7 @@ nav {
   padding: 1.25rem 3rem;
   border-bottom: 1px solid #fd7575;
   gap: 2rem;
-  background-color: #fcc0c0; /* Matching background color to the container */
+  background-color: #ff7f7f; /* Matching background color to the container */
 }
 
 .search-img {
@@ -75,10 +75,10 @@ nav {
 
 .cta-register a {
   padding: 0.5rem 1.25rem;
-  border: 0px;
+  border: 2px solid red;
   font-size: 1rem;
   border-radius: 0.25rem;
-  background-color: #6e5a8a;
+  background-color: #ff7f7f;
   text-decoration: none;
   color: white;
   font-weight: 500;
@@ -86,7 +86,7 @@ nav {
 
 .cta-register a:hover {
   cursor: pointer;
-  background-color: rgb(138, 190, 83);
+  background-color: rgb(250, 0, 42);
 }
 
 @media screen and (max-width: 512px) {

@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { connect } from "react-redux";
 import { registerUser, removeRegisteredUser } from "../../redux/Actions";
 import "./Register.css";
+import { Form } from "react-router-dom";
 
 function Register({ registerUser, removeRegisteredUser }) {
   const [registration, setRegistration] = useState(false);
